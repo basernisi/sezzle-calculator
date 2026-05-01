@@ -4,9 +4,9 @@ import (
 	"log/slog"
 	"net/http"
 
-	httpadapter "github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/http"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/http/middleware"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/ports"
+	httpadapter "github.com/basernisi/sezzle-calculator/backend/internal/adapters/http"
+	"github.com/basernisi/sezzle-calculator/backend/internal/adapters/http/middleware"
+	"github.com/basernisi/sezzle-calculator/backend/internal/ports"
 )
 
 func NewRouter(handler httpadapter.Handler, authHandler httpadapter.AuthHandler, validator ports.TokenValidator, logger *slog.Logger, allowedOrigin string) http.Handler {

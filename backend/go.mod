@@ -1,3 +1,3 @@
-module github.com/jnsilvag/sezzle-calculator/backend
+module github.com/basernisi/sezzle-calculator/backend
 
 go 1.22

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	httpadapter "github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/http"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/ports"
+	httpadapter "github.com/basernisi/sezzle-calculator/backend/internal/adapters/http"
+	"github.com/basernisi/sezzle-calculator/backend/internal/ports"
 )
 
 type contextKey string

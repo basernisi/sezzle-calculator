@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/application/calculate"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/domain/calculator"
+	"github.com/basernisi/sezzle-calculator/backend/internal/application/calculate"
+	"github.com/basernisi/sezzle-calculator/backend/internal/domain/calculator"
 )
 
 const maxRequestBodyBytes int64 = 1024

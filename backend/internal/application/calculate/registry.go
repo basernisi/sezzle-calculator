@@ -3,7 +3,7 @@ package calculate
 import (
 	"strings"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/domain/calculator"
+	"github.com/basernisi/sezzle-calculator/backend/internal/domain/calculator"
 )
 
 type OperationRegistry struct {

@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	httpadapter "github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/http"
+	httpadapter "github.com/basernisi/sezzle-calculator/backend/internal/adapters/http"
 )
 
 func Recovery(logger *slog.Logger) func(http.Handler) http.Handler {

@@ -171,11 +171,18 @@ go run ./cmd/api
 
 Open the frontend and use:
 
-- `Client ID`: the value from `DEMO_CLIENT_ID`
-- `Client secret`: the value from `DEMO_CLIENT_SECRET`
+- `Client ID`: enter the value from `DEMO_CLIENT_ID`
+- `Client secret`: enter the value from `DEMO_CLIENT_SECRET`
 - click `Generate token`
 
 The UI will request a short-lived Bearer token from the backend and autofill the token field for calculator requests.
+
+For the default local and Docker setup in this repository, use:
+
+- `Client ID`: `sezzle-demo-client`
+- `Client secret`: `replace-with-a-demo-client-secret`
+
+If you change `DEMO_CLIENT_ID` or `DEMO_CLIENT_SECRET` in your environment, enter those updated values in the UI instead.
 
 ### Generate a local development token from the terminal
 
@@ -206,6 +213,11 @@ npm run dev
 
 Open [http://localhost:15173](http://localhost:15173), enter the demo `Client ID` and `Client secret`, click `Generate token`, and then use the calculator.
 
+Default values for this repository:
+
+- `Client ID`: `sezzle-demo-client`
+- `Client secret`: `replace-with-a-demo-client-secret`
+
 ## How to run with Docker
 
 From the repository root:
@@ -231,10 +243,12 @@ docker compose exec backend sh -lc 'export JWT_SECRET="$JWT_SECRET"; devtoken'
 
 For normal UI testing you do not need that terminal step. Instead, use these values directly in the frontend:
 
-- `Client ID`: `sezzle-demo-client` or your configured `DEMO_CLIENT_ID`
-- `Client secret`: the value of your configured `DEMO_CLIENT_SECRET`
+- `Client ID`: `sezzle-demo-client`
+- `Client secret`: `replace-with-a-demo-client-secret`
 
 Then click `Generate token` in the UI and use the calculator normally.
+
+If you override `DEMO_CLIENT_ID` or `DEMO_CLIENT_SECRET` in your shell or Compose environment, use those overridden values in the UI.
 
 ## API examples with curl
 

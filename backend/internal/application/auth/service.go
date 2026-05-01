@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/ports"
+	"github.com/basernisi/sezzle-calculator/backend/internal/ports"
 )
 
 var ErrInvalidClientCredentials = errors.New("invalid client credentials")

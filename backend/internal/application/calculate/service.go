@@ -1,6 +1,6 @@
 package calculate
 
-import "github.com/jnsilvag/sezzle-calculator/backend/internal/ports"
+import "github.com/basernisi/sezzle-calculator/backend/internal/ports"
 
 type Service struct {
 	registry ports.OperationRegistry

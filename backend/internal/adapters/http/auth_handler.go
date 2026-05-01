@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	applicationauth "github.com/jnsilvag/sezzle-calculator/backend/internal/application/auth"
+	applicationauth "github.com/basernisi/sezzle-calculator/backend/internal/application/auth"
 )
 
 type TokenService interface {

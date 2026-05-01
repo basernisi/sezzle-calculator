@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/auth"
+	"github.com/basernisi/sezzle-calculator/backend/internal/adapters/auth"
 )
 
 func main() {

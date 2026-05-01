@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/ports"
+	"github.com/basernisi/sezzle-calculator/backend/internal/ports"
 )
 
 type stubTokenValidator struct {

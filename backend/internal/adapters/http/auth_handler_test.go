@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	applicationauth "github.com/jnsilvag/sezzle-calculator/backend/internal/application/auth"
+	applicationauth "github.com/basernisi/sezzle-calculator/backend/internal/application/auth"
 )
 
 func TestAuthHandlerIssueToken(t *testing.T) {

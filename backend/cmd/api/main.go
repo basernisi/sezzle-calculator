@@ -4,14 +4,14 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/auth"
-	httpadapter "github.com/jnsilvag/sezzle-calculator/backend/internal/adapters/http"
-	applicationauth "github.com/jnsilvag/sezzle-calculator/backend/internal/application/auth"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/application/calculate"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/domain/calculator"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/infrastructure/config"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/infrastructure/logging"
-	"github.com/jnsilvag/sezzle-calculator/backend/internal/infrastructure/server"
+	"github.com/basernisi/sezzle-calculator/backend/internal/adapters/auth"
+	httpadapter "github.com/basernisi/sezzle-calculator/backend/internal/adapters/http"
+	applicationauth "github.com/basernisi/sezzle-calculator/backend/internal/application/auth"
+	"github.com/basernisi/sezzle-calculator/backend/internal/application/calculate"
+	"github.com/basernisi/sezzle-calculator/backend/internal/domain/calculator"
+	"github.com/basernisi/sezzle-calculator/backend/internal/infrastructure/config"
+	"github.com/basernisi/sezzle-calculator/backend/internal/infrastructure/logging"
+	"github.com/basernisi/sezzle-calculator/backend/internal/infrastructure/server"
 )
 
 func main() {
