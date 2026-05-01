@@ -223,7 +223,7 @@ Default values for this repository:
 From the repository root:
 
 ```bash
-cd /Users/jnsilvag/Documents/Codex/2026-05-01-you-are-helping-me-build-a/sezzle-calculator
+cd ~/sezzle-calculator
 export JWT_SECRET='replace-with-a-long-random-secret'
 export DEMO_CLIENT_ID='sezzle-demo-client'
 export DEMO_CLIENT_SECRET='replace-with-a-demo-client-secret'
